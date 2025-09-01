@@ -1,8 +1,10 @@
 import { Stack } from "expo-router"
 import { StatusBar } from "expo-status-bar"
+import { GoalsProvider } from "../contexts/GoalsContext"
 
 export default function RootLayout() {
   return (
+    <GoalsProvider>
     <>
       <StatusBar style="auto" />
       <Stack>
@@ -10,5 +12,6 @@ export default function RootLayout() {
         <Stack.Screen name="+not-found" />
       </Stack>
     </>
+    </GoalsProvider>
   )
 }
