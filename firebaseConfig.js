@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBR-TbAaehihZcZZramUG91RqJFWJXFII0",
+apiKey: "AIzaSyBR-TbAaehihZcZZramUG91RqJFWJXFII0",
   authDomain: "jkl-goals.firebaseapp.com",
   projectId: "jkl-goals",
   storageBucket: "jkl-goals.firebasestorage.app",
